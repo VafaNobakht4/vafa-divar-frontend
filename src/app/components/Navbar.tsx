@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div
-      className="py-6 w-full bg-blue-400 h-20 flex flex-row items-center relative"
+      className="py-6 w-full bg-[#100e0e] h-20 flex flex-row items-center relative"
       ref={divRef}
     >
       <Profile setProfileClicked={setProfileClicked} />
